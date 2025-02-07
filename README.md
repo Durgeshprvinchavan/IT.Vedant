@@ -1,2 +1,2 @@
 # IT.Vedant
-It is a IT.Vedant All Project's 
+It is a IT.Vedant Core Web Design Project of Netflix clone.
