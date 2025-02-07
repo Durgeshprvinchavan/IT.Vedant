@@ -1,0 +1,474 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+#photo {
+    background-image: url(./netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+   
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+header .logo img {
+    margin-top: 0px;
+    width: 120px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 1300px;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li .sign-in {
+    background-color: #e50914;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+header nav ul li .sign-in:hover {
+    background-color: #f40612;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.hero form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero form input {
+
+    border: 1px white solid;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    font-size: 1rem;
+    flex: 1;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero form button {
+    padding: 15px 20px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #e50914;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero form button:hover {
+    background-color: #f40612;
+}
+
+
+
+
+/* Hero1 Section */
+.hero1 {
+    position: relative;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hero1-content {
+    position: relative;
+    z-index: 2; 
+    color: #fff;
+    max-width: 600px;
+}
+
+.hero1 p {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.hero1 form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hero1 form input {
+    background-color: #000;
+    border: 1px white solid;
+    width: 1300px;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    font-size: 1rem;
+    flex: 1;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.hero1 form button {
+    padding: 15px 20px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #e50914;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero1 form button:hover {
+    background-color: #f40612;
+}
+
+
+
+
+
+/* Language Selector Styles */
+.language-selector {
+    
+    color: white;
+    border: 1px solid white;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.language-selector option {
+    background-color: #141414;
+    color: white;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* Image Slider Container */
+.slider {
+    background: #000;
+    padding: 50px 0;
+    position: relative; 
+}
+
+/* Title Styling */
+.slider h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e50914; 
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Image Slider Wrapper */
+.image-slider {
+    display: flex;
+    transition: transform 1s ease; 
+    position: relative;
+}
+
+/* Image Styling */
+.image-slider img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; 
+    margin: 0 10px;
+    border-radius: 10px;
+    object-fit: cover;  
+    transition: transform 0.3s ease; 
+}
+
+/* Image Hover Effect */
+.image-slider img:hover {
+    transform: scale(1.05); 
+}
+
+
+
+
+
+
+
+
+/* Stories Section */
+.Stories {
+    background-color: #141414; 
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.Stories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #e50914; 
+}
+
+/* Inline-Block Layout */
+.Stories .Stories-container {
+    display: block; 
+}
+
+.Stories1 {
+    display: inline-block; 
+    vertical-align: top; 
+    
+    background-image: linear-gradient(to top left, rgb(57, 10, 57), black, rgb(15, 15, 49));
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    width: 22%; 
+    margin: 10px; 
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.Stories1:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+}
+
+.Stories1 p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.Stories1 p:last-child {
+    font-size: 1rem;
+    color: #ddd; 
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .Stories1 {
+        width: 90%; 
+    }
+}
+
+
+
+
+
+
+
+
+/* General Styles for the FAQ Section */
+.faqs {
+    background-color: #141414;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faqs h2 {
+    font-size: 2.5rem;
+    color: #e50914; 
+    margin-bottom: 40px;
+}
+
+/* Style for FAQ Items */
+.faq-item {
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Hide checkbox */
+.faq-toggle {
+    display: none;
+}
+
+/* Style for the questions (with the + symbol initially) */
+.faq-question {
+    background-color: #333;
+    color: white;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover {
+    background-color: #e50914;
+}
+
+.faq-question:before {
+    content: "+ ";
+    font-weight: bold;
+    color: #e50914;
+}
+
+/* Show the "-" symbol when the question is open */
+.faq-toggle:checked + .faq-question:before {
+    content: "x "; 
+}
+
+/* Style for the answers */
+.faq-answer {
+    display: none; 
+    background-color: #1f1f1f;
+    color: #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Show the answer when the checkbox is checked */
+.faq-toggle:checked + .faq-question + .faq-answer {
+    display: block; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .faqs {
+        padding: 30px 15px;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+    }
+
+    .faq-answer {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background: #000;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer ul li a {
+    color: #777;
+}
+
+
+
